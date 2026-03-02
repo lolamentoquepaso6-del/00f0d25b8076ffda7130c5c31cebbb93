@@ -1,0 +1,123 @@
+{
+  "metas": [
+    {
+      "id": "cointv:espn_arg",
+      "type": "channel",
+      "name": "ESPN ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg"
+    },
+    {
+      "id": "cointv:espn2_arg",
+      "type": "channel",
+      "name": "ESPN 2 ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg"
+    },
+    {
+      "id": "cointv:espn3_arg",
+      "type": "channel",
+      "name": "ESPN 3 ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg"
+    },
+    {
+      "id": "cointv:espn4_arg",
+      "type": "channel",
+      "name": "ESPN 4 ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg"
+    },
+    {
+      "id": "cointv:espn5_arg",
+      "type": "channel",
+      "name": "ESPN 5 ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg"
+    },
+    {
+      "id": "cointv:espn6_arg",
+      "type": "channel",
+      "name": "ESPN 6 ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg"
+    },
+    {
+      "id": "cointv:espn7_arg",
+      "type": "channel",
+      "name": "ESPN 7 ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg"
+    },
+    {
+      "id": "cointv:espn_deportes",
+      "type": "channel",
+      "name": "ESPN Deportes",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Deportes.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Deportes.svg"
+    },
+    {
+      "id": "cointv:espn_premium",
+      "type": "channel",
+      "name": "ESPN Premium",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Premium_logo.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Premium_logo.svg"
+    },
+    {
+      "id": "cointv:tnt_sport_premium",
+      "type": "channel",
+      "name": "TNT Sport Premium",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/TNT_Sports_Logo.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/TNT_Sports_Logo.svg"
+    },
+    {
+      "id": "cointv:tyc_sport",
+      "type": "channel",
+      "name": "TyC Sport",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/TyC_Sports_logo.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/TyC_Sports_logo.svg"
+    },
+    {
+      "id": "cointv:foxsport_arg",
+      "type": "channel",
+      "name": "Fox Sport ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/FOX_Sports_2022.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/FOX_Sports_2022.svg"
+    },
+    {
+      "id": "cointv:foxsport2_arg",
+      "type": "channel",
+      "name": "Fox Sport 2 ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/FOX_Sports_2022.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/FOX_Sports_2022.svg"
+    },
+    {
+      "id": "cointv:foxsport3_arg",
+      "type": "channel",
+      "name": "Fox Sport 3 ARG",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/FOX_Sports_2022.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/FOX_Sports_2022.svg"
+    },
+    {
+      "id": "cointv:dsport",
+      "type": "channel",
+      "name": "DSport",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/DSports_logo_2022.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/DSports_logo_2022.svg"
+    },
+    {
+      "id": "cointv:dsport2",
+      "type": "channel",
+      "name": "DSport 2",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/DSports_logo_2022.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/DSports_logo_2022.svg"
+    },
+    {
+      "id": "cointv:dsport_plus",
+      "type": "channel",
+      "name": "DSport Plus",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/DSports_logo_2022.svg",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/DSports_logo_2022.svg"
+    }
+  ]
+}
