@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "id": "espn_deportes",
+    "type": "channel",
+    "name": "ESPN Deportes",
+    "poster": "https://upload.wikimedia.org/wikipedia/commons/b/b5/ESPN_Deportes_logo.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b5/ESPN_Deportes_logo.svg",
+    "description": "ESPN Deportes - Canal deportivo",
+    "background": ""
+  }
+}
