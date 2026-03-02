@@ -1,0 +1,25 @@
+{
+  "id": "com.github.baireskid.sports",
+  "version": "1.0.0",
+  "name": "Canales Deportivos",
+  "description": "Canales deportivos en vivo",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["tv"],
+  "catalogs": [
+    {
+      "type": "tv",
+      "id": "sports",
+      "name": "Canales Deportivos"
+    }
+  ],
+  "stream": {
+    "url": "/stream/tv/{id}.json"
+  },
+  "meta": {
+    "url": "/meta/tv/{id}.json"
+  },
+  "catalog": {
+    "url": "/catalog/tv/sports.json"
+  },
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+}
