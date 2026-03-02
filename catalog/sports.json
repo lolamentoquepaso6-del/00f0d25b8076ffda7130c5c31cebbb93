@@ -1,0 +1,123 @@
+{
+  "metas": [
+    {
+      "id": "espn_arg",
+      "type": "channel",
+      "name": "ESPN ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+    },
+    {
+      "id": "espn2_arg",
+      "type": "channel",
+      "name": "ESPN 2 ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+    },
+    {
+      "id": "espn3",
+      "type": "channel",
+      "name": "ESPN 3 ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+    },
+    {
+      "id": "espn4",
+      "type": "channel",
+      "name": "ESPN 4 ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+    },
+    {
+      "id": "espn5",
+      "type": "channel",
+      "name": "ESPN 5 ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+    },
+    {
+      "id": "espn6",
+      "type": "channel",
+      "name": "ESPN 6 ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+    },
+    {
+      "id": "espn7",
+      "type": "channel",
+      "name": "ESPN 7 ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+    },
+    {
+      "id": "espn_deportes",
+      "type": "channel",
+      "name": "ESPN Deportes",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+    },
+    {
+      "id": "espn_premium",
+      "type": "channel",
+      "name": "ESPN Premium",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ESPN_Premium_logo.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ESPN_Premium_logo.svg"
+    },
+    {
+      "id": "tnt_premium",
+      "type": "channel",
+      "name": "Tnt Sport Premium",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/7/7e/TNT_Sports_Logo.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/TNT_Sports_Logo.svg"
+    },
+    {
+      "id": "tyc_sport",
+      "type": "channel",
+      "name": "Tyc Sport",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg"
+    },
+    {
+      "id": "fox_arg",
+      "type": "channel",
+      "name": "Fox Sport ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg"
+    },
+    {
+      "id": "fox2_arg",
+      "type": "channel",
+      "name": "Fox Sport 2 ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg"
+    },
+    {
+      "id": "fox3_arg",
+      "type": "channel",
+      "name": "Fox Sport 3 ARG",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg"
+    },
+    {
+      "id": "ds_sport",
+      "type": "channel",
+      "name": "Ds Sport",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg"
+    },
+    {
+      "id": "ds_sport2",
+      "type": "channel",
+      "name": "Ds Sport 2",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg"
+    },
+    {
+      "id": "ds_sport_plus",
+      "type": "channel",
+      "name": "Ds Sport Plus",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg"
+    }
+  ]
+}

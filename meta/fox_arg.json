@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "id": "fox_arg",
+    "type": "channel",
+    "name": "Fox Sport ARG",
+    "poster": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+    "description": "Canal: Fox Sport ARG. Stream: abre en navegador o en reproductor según el cliente.",
+    "background": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg"
+  }
+}

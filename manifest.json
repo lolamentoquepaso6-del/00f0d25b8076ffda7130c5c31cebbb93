@@ -1,0 +1,23 @@
+{
+  "id": "org.lolamento.sports.static.rawicons",
+  "version": "1.0.0",
+  "name": "Canales Deportivos (static, raw icons)",
+  "description": "Addon estático con catálogo de canales deportivos. Íconos usan URLs crudas de upload.wikimedia.org. Añadir el RAW del manifest.json a Stremio para ver el catálogo.",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "channel"
+  ],
+  "catalogs": [
+    {
+      "type": "channel",
+      "id": "sports",
+      "name": "Canales Deportivos",
+      "extra": []
+    }
+  ],
+  "idPrefixes": []
+}

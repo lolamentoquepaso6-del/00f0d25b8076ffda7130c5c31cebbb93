@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "id": "espn2_arg",
+    "type": "channel",
+    "name": "ESPN 2 ARG",
+    "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+    "description": "Canal: ESPN 2 ARG. Stream: abre en navegador o en reproductor según el cliente.",
+    "background": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
+  }
+}
