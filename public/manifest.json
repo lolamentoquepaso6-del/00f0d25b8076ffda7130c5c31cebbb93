@@ -1,0 +1,23 @@
+{
+  "id": "org.lolamento.sports.static.pages",
+  "version": "1.0.0",
+  "name": "Canales Deportivos (Pages-ready)",
+  "description": "Addon estático para Stremio con estructura correcta para GitHub Pages. Contiene catalog, meta y stream en /channel/*.",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "channel"
+  ],
+  "catalogs": [
+    {
+      "type": "channel",
+      "id": "sports",
+      "name": "Canales Deportivos",
+      "extra": []
+    }
+  ],
+  "idPrefixes": []
+}
