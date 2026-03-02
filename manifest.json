@@ -1,8 +1,14 @@
 {
-  "name": "cointv-static",
+  "id": "org.lolamento.cointv.static",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "name": "Cointv Static ARG",
+  "description": "Canales deportivos ARG que abren externalUrl.",
+  "contactEmail": "tu@email",
+  "icon": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
+  "resources": ["meta", "stream"],
+  "types": ["channel"],
+  "catalogs": [],
+  "behaviorHints": {
+    "noSubtitles": true
   }
 }
