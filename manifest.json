@@ -1,0 +1,313 @@
+{
+  "id": "org.lolamento.sports.singlefile",
+  "version": "1.0.0",
+  "name": "Canales Deportivos (single-file)",
+  "description": "Addon Stremio con catálogo, metadatos y streams embebidos en un único manifest.json. Íconos usan URLs crudas de upload.wikimedia.org.",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "channel"
+  ],
+  "catalogs": [
+    {
+      "type": "channel",
+      "id": "sports",
+      "name": "Canales Deportivos",
+      "extra": [],
+      "metas": [
+        {
+          "id": "espn_arg",
+          "type": "channel",
+          "name": "ESPN ARG",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "description": "ESPN ARG - Canal deportivo",
+          "streams": [
+            {
+              "title": "ESPN ARG - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=RVNQTjJIRA",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "espn2_arg",
+          "type": "channel",
+          "name": "ESPN 2 ARG",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "description": "ESPN 2 ARG - Canal deportivo",
+          "streams": [
+            {
+              "title": "ESPN 2 ARG - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=RVNQTjJfQXJn",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "espn3",
+          "type": "channel",
+          "name": "ESPN 3",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "description": "ESPN 3 - Canal deportivo",
+          "streams": [
+            {
+              "title": "ESPN 3 - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=RVNQTjM",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "espn4",
+          "type": "channel",
+          "name": "ESPN 4",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "description": "ESPN 4 - Canal deportivo",
+          "streams": [
+            {
+              "title": "ESPN 4 - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=RVNQTkhE",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "espn5",
+          "type": "channel",
+          "name": "ESPN 5",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "description": "ESPN 5 - Canal deportivo",
+          "streams": [
+            {
+              "title": "ESPN 5 - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=RVNQTjQ=",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "espn6",
+          "type": "channel",
+          "name": "ESPN 6",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "description": "ESPN 6 - Canal deportivo",
+          "streams": [
+            {
+              "title": "ESPN 6 - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=Rm94U3BvcnRzM19VWQ==",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "espn7",
+          "type": "channel",
+          "name": "ESPN 7",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+          "description": "ESPN 7 - Canal deportivo",
+          "streams": [
+            {
+              "title": "ESPN 7 - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=Rm94U3BvcnRzMl9VWQ==",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "espn_deportes",
+          "type": "channel",
+          "name": "ESPN Deportes",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ESPN_Premium_logo.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ESPN_Premium_logo.svg",
+          "description": "ESPN Deportes - Canal deportivo",
+          "streams": [
+            {
+              "title": "ESPN Deportes - Abrir en navegador",
+              "url": "https://cointv.site/canales/espn-deportes/",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "espn_premium",
+          "type": "channel",
+          "name": "ESPN Premium",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ESPN_Premium_logo.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ESPN_Premium_logo.svg",
+          "description": "ESPN Premium - Canal deportivo",
+          "streams": [
+            {
+              "title": "ESPN Premium - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "tnt_premium",
+          "type": "channel",
+          "name": "Tnt Sport Premium",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/7/7e/TNT_Sports_Logo.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/TNT_Sports_Logo.svg",
+          "description": "Tnt Sport Premium - Canal deportivo",
+          "streams": [
+            {
+              "title": "Tnt Sport Premium - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=VE5UX1Nwb3J0c19IRA",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "tyc_sport",
+          "type": "channel",
+          "name": "Tyc Sport",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg",
+          "description": "Tyc Sport - Canal deportivo",
+          "streams": [
+            {
+              "title": "Tyc Sport - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=VHlDU3BvcnQ",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fox_arg",
+          "type": "channel",
+          "name": "Fox Sport ARG",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+          "description": "Fox Sport ARG - Canal deportivo",
+          "streams": [
+            {
+              "title": "Fox Sport ARG - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=Rm94U3BvcnRz",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fox2_arg",
+          "type": "channel",
+          "name": "Fox Sport 2 ARG",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+          "description": "Fox Sport 2 ARG - Canal deportivo",
+          "streams": [
+            {
+              "title": "Fox Sport 2 ARG - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=Rm94U3BvcnRzMkhE",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fox3_arg",
+          "type": "channel",
+          "name": "Fox Sport 3 ARG",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fox_Sports_Argentina_2023.svg",
+          "description": "Fox Sport 3 ARG - Canal deportivo",
+          "streams": [
+            {
+              "title": "Fox Sport 3 ARG - Abrir en navegador",
+              "url": "https://cointv.site/cvattde.html?get=Rm94U3BvcnRzM0hE",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "ds_sport",
+          "type": "channel",
+          "name": "Ds Sport",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg",
+          "description": "Ds Sport - Canal deportivo (Directv fallback logo)",
+          "streams": [
+            {
+              "title": "Ds Sport - Abrir en navegador",
+              "url": "https://cointv.site/canales.php?id=directv",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "ds_sport2",
+          "type": "channel",
+          "name": "Ds Sport 2",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg",
+          "description": "Ds Sport 2 - Canal deportivo (Directv fallback logo)",
+          "streams": [
+            {
+              "title": "Ds Sport 2 - Abrir en navegador",
+              "url": "https://cointv.site/canales.php?id=directv2",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "ds_sport_plus",
+          "type": "channel",
+          "name": "Ds Sport Plus",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/FOX_Sports_2022.svg",
+          "description": "Ds Sport Plus - Canal deportivo (Directv fallback logo)",
+          "streams": [
+            {
+              "title": "Ds Sport Plus - Abrir en navegador",
+              "url": "https://cointv.site/canales.php?id=directvplus",
+              "info": {
+                "isFree": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
