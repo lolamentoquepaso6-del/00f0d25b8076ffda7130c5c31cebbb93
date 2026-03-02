@@ -1,4 +1,4 @@
-// index.js - Ultra minimal para Render
+// index.js - Ultra minimal para Render (listo y corregido)
 const http = require("http");
 
 const manifest = {
@@ -6,6 +6,8 @@ const manifest = {
   version: "1.0.0",
   name: "Cointv Static ARG",
   description: "Canales deportivos ARG (externalUrl).",
+  contactEmail: "tu@email",
+  icon: "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
   resources: ["meta", "stream"],
   types: ["channel"],
   catalogs: []
@@ -100,46 +102,69 @@ const channels = {
 };
 
 http.createServer((req, res) => {
-  const url = req.url.replace(/\/+$/, ""); // normalize
-  if (url === "/manifest.json") {
-    res.writeHead(200, { "Content-Type": "application/json" });
-    return res.end(JSON.stringify(manifest));
+  const raw = req.url.replace(/\/+$/, ""); // normaliza
+  // helper para JSON con CORS
+  const sendJSON = (obj, code = 200) => {
+    res.writeHead(code, {
+      "Content-Type": "application/json; charset=utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type"
+    });
+    res.end(JSON.stringify(obj));
+  };
+
+  // OPTIONS preflight (por si acaso)
+  if (req.method === "OPTIONS") {
+    res.writeHead(204, {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type"
+    });
+    return res.end();
+  }
+
+  if (raw === "/manifest.json") {
+    return sendJSON(manifest);
   }
 
   // /meta/channel/<id>.json
-  if (url.startsWith("/meta/channel/")) {
-    const id = decodeURIComponent(url.split("/")[3] || "");
-    const ch = channels[id];
-    res.writeHead(200, { "Content-Type": "application/json" });
-    if (!ch) return res.end(JSON.stringify({ meta: null }));
-    return res.end(JSON.stringify({
+  if (raw.startsWith("/meta/channel/")) {
+    let part = (raw.split("/")[3] || "");
+    part = decodeURIComponent(part);            // cointv:espn_arg.json OR cointv:espn_arg
+    part = part.replace(/\.json$/, "");         // elimino .json si existe
+    const ch = channels[part];
+    if (!ch) return sendJSON({ meta: null });
+    return sendJSON({
       meta: {
-        id,
+        id: part,
         type: "channel",
         name: ch.name,
         poster: ch.logo,
         logo: ch.logo
       }
-    }));
+    });
   }
 
   // /stream/channel/<id>.json
-  if (url.startsWith("/stream/channel/")) {
-    const id = decodeURIComponent(url.split("/")[3] || "");
-    const ch = channels[id];
-    res.writeHead(200, { "Content-Type": "application/json" });
-    if (!ch) return res.end(JSON.stringify({ streams: [] }));
-    return res.end(JSON.stringify({
+  if (raw.startsWith("/stream/channel/")) {
+    let part = (raw.split("/")[3] || "");
+    part = decodeURIComponent(part);
+    part = part.replace(/\.json$/, "");
+    const ch = channels[part];
+    if (!ch) return sendJSON({ streams: [] });
+    return sendJSON({
       streams: [
         {
           title: ch.name,
           externalUrl: ch.url
         }
       ]
-    }));
+    });
   }
 
-  res.writeHead(404, { "Content-Type": "text/plain" });
+  // fallback
+  res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
   res.end("Not found");
 }).listen(process.env.PORT || 7000, () => {
   console.log("Listening on port", process.env.PORT || 7000);
