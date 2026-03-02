@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "id": "cointv:tnt_sport_premium",
+    "type": "channel",
+    "name": "TNT Sport Premium",
+    "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/TNT_Sports_Logo.svg",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/TNT_Sports_Logo.svg"
+  }
+}

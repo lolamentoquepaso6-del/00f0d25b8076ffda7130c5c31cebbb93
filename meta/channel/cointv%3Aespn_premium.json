@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "id": "cointv:espn_premium",
+    "type": "channel",
+    "name": "ESPN Premium",
+    "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Premium_logo.svg",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Premium_logo.svg"
+  }
+}

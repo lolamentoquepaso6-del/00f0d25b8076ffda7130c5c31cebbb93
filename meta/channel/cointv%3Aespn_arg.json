@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "id": "cointv:espn_arg",
+    "type": "channel",
+    "name": "ESPN ARG",
+    "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_wordmark.svg"
+  }
+}

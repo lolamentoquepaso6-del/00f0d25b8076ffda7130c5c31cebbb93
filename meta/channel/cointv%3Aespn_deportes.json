@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "id": "cointv:espn_deportes",
+    "type": "channel",
+    "name": "ESPN Deportes",
+    "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Deportes.svg",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Deportes.svg"
+  }
+}
