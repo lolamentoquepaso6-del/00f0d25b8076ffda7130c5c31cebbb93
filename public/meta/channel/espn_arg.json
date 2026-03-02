@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "id": "espn_arg",
+    "type": "channel",
+    "name": "ESPN ARG",
+    "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg",
+    "description": "ESPN ARG - Canal deportivo",
+    "background": ""
+  }
+}
