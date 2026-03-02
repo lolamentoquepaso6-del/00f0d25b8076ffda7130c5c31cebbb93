@@ -4,10 +4,10 @@
   "name": "Canales Deportivos",
   "description": "Canales deportivos en vivo",
   "resources": ["catalog", "meta", "stream"],
-  "types": ["channel"],
+  "types": ["tv"],
   "catalogs": [
     {
-      "type": "channel",
+      "type": "tv",
       "id": "sports",
       "name": "Canales Deportivos"
     }
